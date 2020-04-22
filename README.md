@@ -16,12 +16,12 @@ RUN,
 ---
 > screen php run.php
 
-BASH,
+BASH (loop),
 ---
 
 `#!/bin/bash
 while :
 do
-	echo "Press [CTRL+C] to stop.."
+	echo "loop"
 	sleep 1
 done`
