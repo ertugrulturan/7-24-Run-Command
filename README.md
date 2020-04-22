@@ -19,9 +19,4 @@ RUN,
 BASH (loop),
 ---
 
-`#!/bin/bash
-while :
-do
-	echo "loop"
-	sleep 1
-done`
+` while :; do echo 'Hit CTRL+C'; sleep 1; done `
