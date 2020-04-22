@@ -15,3 +15,13 @@ python sample.py run scirpt and 20 seconds later run "pkill" (repeats stop- alwa
 RUN,
 ---
 > screen php run.php
+
+BASH,
+---
+
+`#!/bin/bash
+while :
+do
+	echo "Press [CTRL+C] to stop.."
+	sleep 1
+done`
